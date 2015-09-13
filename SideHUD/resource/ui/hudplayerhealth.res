@@ -6,12 +6,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"0"		[$WIN32]
-		"ypos"			"r120"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"ypos"			"r200"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"140"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -74,7 +72,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"NotoSansItalic36"
-		"fgcolor"		"White"
+		"fgcolor"		"255 20 147 255"
 	}								
 	"PlayerStatusBleedImage"
 	{
@@ -113,7 +111,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
