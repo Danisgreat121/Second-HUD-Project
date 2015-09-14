@@ -72,14 +72,13 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"NotoSansItalic36"
-		"fgcolor"		"255 20 147 255"
+		"fgcolor"		"0 250 154 255"
 	}								
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -95,7 +94,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHookBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"32"

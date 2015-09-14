@@ -86,8 +86,7 @@
 		"xpos"			"r460"	[$WIN32]
 		"ypos"			"r120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"133"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -98,11 +97,10 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"xpos"			"r460"	[$WIN32]
+		"ypos"			"r125"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"133"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -195,11 +193,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
+		"xpos"					"270"
+		"ypos"					"r200"
+		"wide"					"f0"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"

@@ -61,12 +61,35 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%metal%"
-		"fgcolor"		"199 21 133 255"
+		"fgcolor"		"0 255 127 255"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NotoSansItalic24"
 	}
+	
+	"AccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValueShadow"
+		"xpos"			"20"
+		"ypos"			"114"
+		"zpos"			"1"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"fgcolor"		"148 0 211 255"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"NotoSansItalic24"
+	}
+	
 	
 	"Metal"
 	{

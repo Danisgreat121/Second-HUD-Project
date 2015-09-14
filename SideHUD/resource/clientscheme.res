@@ -485,6 +485,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"NotoSansItalic48"
+		{
+			"1"
+			{
+				"name"		"NotoSans"
+				"tall"		"48"
+				"tall_lodef"	"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"NotoSansItalic36"
 		{
 			"1"
