@@ -1,5 +1,5 @@
 "Resource/UI/VoteHud.res"
-{	
+{
 	"VotePassed"
 	{
 		"ControlName"	"EditablePanel"
@@ -10,8 +10,26 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		//"border"		"TFFatLineBorderOpaque"
+
+		"ShadedBox"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ShadedBox"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"150"
+			"tall"			"67"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"fillcolor"	"0 0 0 127"
+			"PaintBackgroundType" "2"
+		}
+
 		"PassedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -25,7 +43,7 @@
 			"scaleImage"	"1"
 			"image"			"hud/vote_yes"
 		}
-		
+
 		"PassedTitle"
 		{
 			"ControlName"	"Label"
@@ -44,7 +62,7 @@
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"PassedResult"
 		{
 			"ControlName"	"Label"
@@ -63,9 +81,9 @@
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
-		}		
+		}
 	}
-	
+
 	"VoteActive"
 	{
 		"ControlName"	"EditablePanel"
@@ -76,8 +94,26 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-		
+		//"border"		"TFFatLineBorderOpaque"
+
+		"ShadedBox"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ShadedBox"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"150"
+			"tall"			"144"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"fillcolor"	"0 0 0 127"
+			"PaintBackgroundType" "2"
+		}
+
 		"Header"
 		{
 			"ControlName"	"Label"
@@ -94,9 +130,9 @@
 			"brighttext"		"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"128 128 128 128"
 		}
-		
+
 		"Issue"
 		{
 			"ControlName"	"Label"
@@ -116,7 +152,7 @@
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
 		}
-		
+
 		// divider
 		"Divider"
 		{
@@ -126,12 +162,12 @@
 			"ypos"			"50"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"128 128 128 128"
 			"zpos"			"0"
 		}
-		
+
 		// Temp UI
-		
+
 		"LabelOption1"
 		{
 			"ControlName"	"Label"
@@ -150,7 +186,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option1Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -163,7 +199,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
 		}
-		
+
 		"Option1CountLabel"
 		{
 			"ControlName"	"Label"
@@ -182,7 +218,7 @@
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"LabelOption2"
 		{
 			"ControlName"	"Label"
@@ -201,7 +237,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option2Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -214,7 +250,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
 		}
-		
+
 		"Option2CountLabel"
 		{
 			"ControlName"	"Label"
@@ -233,7 +269,7 @@
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"LabelOption3"
 		{
 			"ControlName"	"Label"
@@ -252,7 +288,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option3Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -265,7 +301,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
-		
+
 		"LabelOption4"
 		{
 			"ControlName"	"Label"
@@ -284,7 +320,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option4Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -297,7 +333,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
-		
+
 		"LabelOption5"
 		{
 			"ControlName"	"Label"
@@ -316,7 +352,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
-		
+
 		"Option5Background_Selected"
 		{
 			"ControlName"	"ImagePanel"
@@ -329,7 +365,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 		}
-		
+
 		// divider
 		"Divider2"
 		{
@@ -342,7 +378,7 @@
 			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
 		}
-		
+
 		"VoteCountLabel"
 		{
 			"ControlName"	"Label"
@@ -360,7 +396,7 @@
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"128 128 128 255"
 		}
-		
+
 		// vote bar
 		"VoteBar"
 		{
@@ -372,15 +408,15 @@
 			"tall"			"18"
 			"zpos"			"2"
 			"visible"		"1"
-			"enabled"		"1"			
+			"enabled"		"1"
 			"box_size"		"16"
 			"spacer"		"6"
 			"box_inset"		"1"
 			"yes_texture"	"vgui/hud/vote_yes"
-			"no_texture"	"vgui/hud/vote_no"			
-		}			
+			"no_texture"	"vgui/hud/vote_no"
+		}
 	}
-	
+
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
@@ -392,8 +428,26 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		//"border"		"TFFatLineBorderOpaque"
+
+		"ShadedBox"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ShadedBox"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"150"
+			"tall"			"67"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"fillcolor"	"0 0 0 127"
+			"PaintBackgroundType" "2"
+		}
+
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -407,7 +461,7 @@
 			"scaleImage"	"1"
 			"image"			"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"	"Label"
@@ -426,7 +480,7 @@
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"	"Label"
@@ -444,9 +498,9 @@
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
-		}		
+		}
 	}
-	
+
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
@@ -458,8 +512,26 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
-				
+		//"border"		"TFFatLineBorderOpaque"
+
+		"ShadedBox"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ShadedBox"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"150"
+			"tall"			"67"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"fillcolor"	"0 0 0 127"
+			"PaintBackgroundType" "2"
+		}
+
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -473,7 +545,7 @@
 			"scaleImage"	"1"
 			"image"			"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"	"Label"
@@ -492,7 +564,7 @@
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"	"Label"
@@ -510,9 +582,9 @@
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
-		}		
+		}
 	}
-	
+
 	"VoteSetupDialog"
 	{
 		"ControlName"		"CVoteSetupDialog"
@@ -527,19 +599,37 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
+		//"border"			"TFFatLineBorderOpaque"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
 		"header_font"		"ItemFontNameLarge"
 		"header_fgcolor"	"Orange"
 
-		"issue_width"		"180"		
+		"issue_width"		"180"
 		"issue_font"		"ItemFontNameSmall"
 		"issue_fgcolor"		"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
-		
+
 		"parameter_width"	"200"
+
+		"ShadedBox"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ShadedBox"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-10"
+			"wide"			"400"
+			"tall"			"310"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"fillcolor"	"0 0 0 127"
+			"PaintBackgroundType" "2"
+		}
 
 		"TitleLabel"
 		{
@@ -558,7 +648,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 		}
-									
+
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
@@ -573,10 +663,10 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"0"
-			
+
 			"linespacing"	"16"
 		}
-		
+
 		"VoteParameterList"
 		{
 			"ControlName"		"SectionedListPanel"
@@ -619,7 +709,7 @@
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
-			"wide"				"235"
+			"wide"				"205"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -631,7 +721,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 255"
 			"disabledFgColor_override" "117 107 94 255"
@@ -640,21 +730,21 @@
 			"selectionTextColor_override" "117 107 94 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
-			
+
 		"CallVoteButton"
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
+			"xpos"		"85"
 			"ypos"		"275"
-			"wide"		"160"
+			"wide"		"100"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
-			"labelText"		"#TF_call_vote"
+			"labelText"		"Call Vote"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -666,9 +756,9 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"240"
+			"xpos"		"190"
 			"ypos"		"275"
-			"wide"		"80"
+			"wide"		"100"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"

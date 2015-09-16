@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r470"	[$WIN32]
+		"xpos"			"r475"	[$WIN32]
 		"ypos"			"r120"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
@@ -94,6 +94,27 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"surface24"
+		"font"					"NotoSansItalic24"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"26"
+		"ypos"					"8"
+		"ypos"					"6"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"fgcolor"				"black"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"NotoSansItalic24"
 	}
 }

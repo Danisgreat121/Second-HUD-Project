@@ -77,6 +77,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"160 32 240 255"
+		"fgcolor_override"	"160 32 240 255"
 	}		
 
 	"ChargeMeter1"

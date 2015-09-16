@@ -6,10 +6,10 @@
 		"text_x"			"0"
 		"text_y"			"0"
 		"delta_item_end_y"	"0"
-		"PositiveColor"		"White"
-		"NegativeColor"		"White"
+		"PositiveColor"		"0 250 154 255"
+		"NegativeColor"		"255 20 147 255"
 		"delta_lifetime"		"1.2"
-		"delta_item_font"		"NotoSansItalic12"
+		"delta_item_font"		"NotoSansItalic24"
 		"delta_item_font_big"	"NotoSansItalic18"
 	}
 	"DamageAccountValue"
@@ -25,7 +25,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"White"
+		"fgcolor"		"0 250 154 255"
 		"font"		"NotoSansItalic24"
 	}
 	
@@ -33,7 +33,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueBG"
-		"xpos"			"c-212"
+		"xpos"			"c-211"
 		"ypos"			"r155"
 		"zpos"			"1"
 		"wide"			"102"

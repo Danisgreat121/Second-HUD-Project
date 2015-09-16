@@ -9,7 +9,7 @@
 		"ypos"			"r200"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"140"
+		"tall"			"2000"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -48,7 +48,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"258"	[$WIN32]
+		"xpos"			"267"	[$WIN32]
 		"ypos"			"69"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
@@ -62,18 +62,34 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"260"
+		"xpos"			"256"
 		"ypos"			"70"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"80"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NotoSansItalic36"
+		"font"			"NotoSansItalic48"
 		"fgcolor"		"0 250 154 255"
-	}								
+	}	
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"258"
+		"ypos"			"70"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"NotoSansItalic48"
+		"fgcolor"		"148 0 211 255"
+	}		
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
