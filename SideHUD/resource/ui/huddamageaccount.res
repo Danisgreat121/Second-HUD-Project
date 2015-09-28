@@ -25,7 +25,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 250 154 255"
+		"fgcolor"		"white"
 		"font"		"NotoSansItalic24"
 	}
 	
@@ -39,10 +39,10 @@
 		"wide"			"102"
 		"tall"			"27"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"0"
 		"font"		"NotoSansItalic24"
 	}
 }

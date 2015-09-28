@@ -83,7 +83,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r490"	[$WIN32]
+		"xpos"			"r468"	[$WIN32]
 		"ypos"			"r160"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"133"
@@ -457,25 +457,25 @@
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"wide"	 "628"
-		"tall"	 "468"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos"	"r640"
+		"ypos"	"12"
+		"wide"	"628"
+		"tall"	"468"
 
 		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
+		"LineHeight"	  "12"
+		"LineSpacing"	  "1"
 		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "1"
 		
 		"TextFont"		"NotoSansItalic12"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
+		"TeamBlue"		"78 119 182 255"
+		"TeamRed"		"207 73 50 255"
+		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"HUDBlack"
 
 		"BaseBackgroundColor"		"0 0 0 90"
